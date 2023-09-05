@@ -1,9 +1,15 @@
 <p>This is the welcome page.</p>
 
-<hr class="mt-4"/>
-<div>
+<hr/>
+<div class="m-4">
 	<p>{{section001 | numtoname}}</p>
 	<p>{{section002 | numtoname}}</p>
 	<p>{{section003 | numtoname}}</p>
 </div>
-<hr />
+<hr/>
+<div class="m-4">
+	<h2 class="font-bold">Colors</h2>
+	<ul>
+		<li *ngFor="let color of colors">{{color}}</li>
+	</ul>
+</div>
