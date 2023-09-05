@@ -11,5 +11,9 @@ export const routerConfig: Routes = [
 	{
 		path: 'todo-list',
 		component: TodoListComponent
+	},
+	{
+		path: 'angular-info',
+		component: AngularInfoComponent
 	}
 ]
