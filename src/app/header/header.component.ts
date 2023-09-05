@@ -12,6 +12,7 @@ export class HeaderComponent {
 
 	backgroundStyle = 'text-slate-500';
 	showMessage = false;
+	highlightProductMessage = false;
 
 	ngOnInit() {
 		if (this.status === 'error') {

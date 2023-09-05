@@ -3,4 +3,6 @@
 - x send a prop to our header component
 - x create prop for header: status = "normal", "error"
 - x practice ngSwitchCase: send userGroup = "sales", "development", "marketing"
-- .. implement click: button "Info" which toggles information
+- x implement click: button "Info" which toggles information
+- x see if you can publish to Vercel
+- .. ngClass
