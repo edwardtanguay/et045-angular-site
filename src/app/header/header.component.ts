@@ -13,6 +13,7 @@ export class HeaderComponent {
 	backgroundStyle = 'text-slate-500';
 	showMessage = false;
 	highlightProductMessage = false;
+	infoAvailable = true;
 
 	ngOnInit() {
 		if (this.status === 'error') {

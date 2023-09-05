@@ -9,8 +9,9 @@
 	</div>
 	<hr />
 	<div class="flex items-center">
-		<button class="bg-slate-900 p-1 m-2 rounded text-slate-200" (click)="showMessage = !showMessage">Info</button>
-		<div *ngIf="showMessage">the message</div>
+		<button class="bg-slate-900 p-1 m-2 rounded text-slate-200 disabled:opacity-25" (click)="showMessage = !showMessage" [disabled]="!infoAvailable">Info</button>
+		<div *ngIf="showMessage">This is a site we are building in order to learn Angular.</div>
+		<div *ngIf="!infoAvailable" class="text-red-500 italic">Sorry, no information is available at the moment.</div>
 	</div>
 	<hr />
 	<p [ngClass]="{'highlighted': highlightProductMessage}">Be sure to view our newest products.</p>

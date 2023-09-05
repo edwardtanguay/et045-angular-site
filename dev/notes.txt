@@ -6,9 +6,9 @@
 - x implement click: button "Info" which toggles information
 - x see if you can publish to Vercel
 - x ngClass
-
-- .. implement routing
+- x implement routing
 	-  x create 3 page components: Welcome, Angular Info, Todo List
 	- x create menu to click on
 	- x when click on page, show page component
-	- .. highlight active link
+	- x highlight active link
+- implement disabled: when infoAvailable = false, disable button
