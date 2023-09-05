@@ -1,3 +1,4 @@
 - x style with tailwind
 - x create todo-list component
-- .. send a prop to our header component
+- x send a prop to our header component
+- .. create prop for header: status / "normal", "error"

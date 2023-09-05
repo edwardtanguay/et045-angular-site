@@ -7,4 +7,13 @@ import { Component, Input } from '@angular/core';
 })
 export class HeaderComponent {
 	@Input() appTitle = '(no title)';
+	@Input() status = 'normal';
+
+	backgroundStyle = 'text-slate-500';
+
+	ngOnInit() {
+		if (this.status === 'error') {
+			this.backgroundStyle = 'text-red-500';
+		}
+	}
 }
