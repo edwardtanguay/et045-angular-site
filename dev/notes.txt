@@ -8,6 +8,7 @@
 - x ngClass
 
 - .. implement routing
-	-  .. create 3 page components: Welcome, Angular Info, Todo List
-	- create menu to click on
-	- when click on page, show page component
+	-  x create 3 page components: Welcome, Angular Info, Todo List
+	- x create menu to click on
+	- x when click on page, show page component
+	- .. highlight active link
