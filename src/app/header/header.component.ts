@@ -11,6 +11,7 @@ export class HeaderComponent {
 	@Input() userGroup = 'sales';
 
 	backgroundStyle = 'text-slate-500';
+	showMessage = false;
 
 	ngOnInit() {
 		if (this.status === 'error') {

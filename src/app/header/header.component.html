@@ -8,4 +8,9 @@
 		<span *ngSwitchCase="'development'">There is a new version of react.</span>
 	</div>
 	<hr />
+	<div class="flex items-center">
+		<button class="bg-slate-900 p-1 m-2 rounded text-slate-200" (click)="showMessage = !showMessage">Info</button>
+		<div *ngIf="showMessage">the message</div>
+	</div>
+	<hr />
 </div>
