@@ -17,4 +17,5 @@
 	- x show date in various formats
 - x challenge: button "Date" which shows the four formats
 - x do numtoname
-- .. implement ngFor as colors on Welcome 
+- x implement ngFor as colors on Welcome 
+- .. imporment ngModel

@@ -8,6 +8,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AngularInfoComponent } from './angular-info/angular-info.component';
 import { MenuComponent } from './menu/menu.component';
 import { NumtonamePipe } from '../shared/numtoname.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NumtonamePipe } from '../shared/numtoname.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
