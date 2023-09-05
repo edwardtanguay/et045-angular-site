@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import * as tools from '../tools';
 
 @Component({
 	selector: 'app-header',
@@ -14,6 +15,7 @@ export class HeaderComponent {
 	showMessage = false;
 	highlightProductMessage = false;
 	infoAvailable = true;
+	currentDate = tools.getCurrentDateTime();
 
 	ngOnInit() {
 		if (this.status === 'error') {

@@ -11,4 +11,7 @@
 	- x create menu to click on
 	- x when click on page, show page component
 	- x highlight active link
-- implement disabled: when infoAvailable = false, disable button
+- x implement disabled: when infoAvailable = false, disable button
+- .. implement pipes
+	- x uppercase
+	- .. show date in various formats

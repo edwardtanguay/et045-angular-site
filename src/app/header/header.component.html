@@ -1,5 +1,5 @@
 <div class="{{backgroundStyle}}">
-	<h1 class="text-4xl mb-4">{{appTitle}}</h1>
+	<h1 class="text-4xl mb-4">{{appTitle | uppercase}}</h1>
 	<p *ngIf="status === 'error'">ERROR: Please contact administrator.</p>
 	<hr />
 	<div [ngSwitch]="userGroup">
@@ -16,4 +16,9 @@
 	<hr />
 	<p [ngClass]="{'highlighted': highlightProductMessage}">Be sure to view our newest products.</p>
 	<hr />
+	<!-- {{currentDate | date}} -->
+	<!-- {{currentDate | date | uppercase}} -->
+	<!-- {{currentDate | date: 'longDate'}} -->
+	{{currentDate | date: 'longDate' | uppercase}}
+	<hr/>
 </div>
