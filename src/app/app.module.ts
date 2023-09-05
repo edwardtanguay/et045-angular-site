@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { AngularInfoComponent } from './angular-info/angular-info.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TodoListComponent
+    TodoListComponent,
+    WelcomeComponent,
+    AngularInfoComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

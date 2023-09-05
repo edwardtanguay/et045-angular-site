@@ -5,4 +5,9 @@
 - x practice ngSwitchCase: send userGroup = "sales", "development", "marketing"
 - x implement click: button "Info" which toggles information
 - x see if you can publish to Vercel
-- .. ngClass
+- x ngClass
+
+- .. implement routing
+	-  .. create 3 page components: Welcome, Angular Info, Todo List
+	- create menu to click on
+	- when click on page, show page component
