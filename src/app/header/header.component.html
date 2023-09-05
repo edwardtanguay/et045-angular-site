@@ -1,6 +1,11 @@
 <div class="{{backgroundStyle}}">
 	<h1 class="text-4xl mb-4">{{appTitle}}</h1>
 	<p *ngIf="status === 'error'">ERROR: Please contact administrator.</p>
+	<hr />
+	<div [ngSwitch]="userGroup">
+		<span *ngSwitchCase="'sales'">New sales reports have arrived.</span>
+		<span *ngSwitchCase="'marketing'">Marketing plan needs to be revised.</span>
+		<span *ngSwitchCase="'development'">There is a new version of react.</span>
+	</div>
+	<hr />
 </div>
-
-

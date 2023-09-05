@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class HeaderComponent {
 	@Input() appTitle = '(no title)';
 	@Input() status = 'normal';
+	@Input() userGroup = 'sales';
 
 	backgroundStyle = 'text-slate-500';
 
