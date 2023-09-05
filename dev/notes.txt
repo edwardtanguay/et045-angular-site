@@ -12,6 +12,7 @@
 	- x when click on page, show page component
 	- x highlight active link
 - x implement disabled: when infoAvailable = false, disable button
-- .. implement pipes
+- x implement pipes
 	- x uppercase
-	- .. show date in various formats
+	- x show date in various formats
+- .. challenge: button "Date" which shows the four formats

@@ -16,6 +16,14 @@ export class HeaderComponent {
 	highlightProductMessage = false;
 	infoAvailable = true;
 	currentDate = tools.getCurrentDateTime();
+	dateIndexToShow = 0; // 0-3
+
+	increaseDateIndex() {
+		this.dateIndexToShow++;
+		if (this.dateIndexToShow > 3) {
+			this.dateIndexToShow = 0;
+		}
+	}
 
 	ngOnInit() {
 		if (this.status === 'error') {
