@@ -1,1 +1,3 @@
-- .. style with tailwind
+- x style with tailwind
+- x create todo-list component
+- .. send a prop to our header component
